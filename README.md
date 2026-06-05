@@ -8,9 +8,9 @@ A record of my progress learning Python from zero to building real projects.
 
 | Period | What I Did |
 |--------|------------|
-| [Month Year] | Started learning Python |
-| [Month Year] | Completed FreeCodeCamp course |
-| [Month Year] | Built first CLI project |
+| [2026] | Started learning Python |
+| [2026] | Completed FreeCodeCamp course |
+| [2026] | Built first CLI project |
 
 ---
 
@@ -18,12 +18,12 @@ A record of my progress learning Python from zero to building real projects.
 
 ### FreeCodeCamp
 - **Course:** [Scientific Computing with Python / Data Analysis with Python / etc.]
-- **Certificate:** [Link to certificate or "In progress"]
+- **Certificate:** ["In progress"]
 - **What I learned:** [Variables, functions, loops, file handling, JSON, argparse, etc.]
 
 ### Other Tutorials
-- [Tutorial name / YouTube channel / article]
-- [What you learned from it]
+- [YouTube - Mosh Python]
+- [YouTube - Corey Schafer]
 
 ---
 
