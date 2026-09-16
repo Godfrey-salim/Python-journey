@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✅ TaskFlow</h1>
+            <p id="counter">0 of 0 done</p>
+        </header>
+
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addBtn">Add</button>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <div id="emptyState" class="empty-state">
+            <p>🎉 No tasks yet.</p>
+            <p>Add your first task above.</p>
+        </div>
+
+        <div class="actions">
+            <button id="clearCompletedBtn" class="secondary-btn">Clear Completed</button>
+            <button id="clearAllBtn" class="danger-btn">Clear All</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
